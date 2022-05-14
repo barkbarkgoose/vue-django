@@ -1,0 +1,30 @@
+# django stuff
+src/main/settings.py
+*.log
+*.pot
+*.pyc
+__pycache__
+media
+
+# project stuff
+db.sqlite
+db.sqlite3
+env/
+venv/
+.env
+.venv
+src/static/
+src/var/
+
+# vue stuff
+src/frontend/node_modules
+
+# editor directories and files
+sftp-config.json
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
